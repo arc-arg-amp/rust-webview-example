@@ -1,0 +1,16 @@
+[package]
+name = "webview_scraper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web-view = "0.7.3"
+tokio = { version = "1.20.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+gjson = "0.8"
+scraper = "0.13.0"
